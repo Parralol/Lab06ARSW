@@ -46,4 +46,11 @@ public class Lab06Controller {
         Point a = new Point(Integer.valueOf(xval), Integer.valueOf(yval));
         xd.add(a);
     }
+
+    @CrossOrigin(origins = "http://localhost:3000")
+    @GetMapping("/delpoints")
+    public void delPoints() {
+       ArrayList<Point> con = new ArrayList<>();
+       xd = con;
+    }
 }
