@@ -57,6 +57,10 @@ https://github.com/Parralol/Lab06ARSW/assets/110953563/664d7a14-1329-4660-9d1d-5
 
 in this video we test that the delete button works properly
 
+https://github.com/Parralol/Lab06ARSW/assets/110953563/9d18ef29-ee58-404e-b1ad-3f8d30913548
+
+here we can see the client and the server both deployed in EC2.
+
 
 ## Generating javadoc
 
