@@ -45,30 +45,12 @@ mvn clean package
 
 ### Acceptance test
 
-![image](https://github.com/Parralol/Lab05ARSW/assets/110953563/abd93cf7-94f7-4648-a432-1a605cfe850e)
 
-This test is run in a deployed service on EC2 as seen in the image
+https://github.com/Parralol/Lab06ARSW/assets/110953563/cac2d4bf-4d8c-4023-9336-6d97e072d54e
 
-![image](https://github.com/Parralol/Lab05ARSW/assets/110953563/8bf9c486-f182-4c95-abcb-1f418c9ae072)
+in case the video does not load, simply press F5 to refresh the github tab so that te video downloads as intended
 
-As seen here the program works succesfully on an EC2 instance calculates successfully given operations on the (a <+|-|*|/> b) type or in the (<+|-|*|/> b ) type, just like any basic calculator.
-
-![image](https://github.com/Parralol/Lab05ARSW/assets/110953563/d2800e48-9671-4a7f-96ec-0b8c3c4f214d)
-
-As seen here the first input is 1+2, and the result is three, ¿what happens when we substract 1 to the result?
-
-![image](https://github.com/Parralol/Lab05ARSW/assets/110953563/6f8b1c24-b37c-4fe3-83d8-817c3edcf724)
-
-As seen here, the result gets substracted one by just typing -1 in the text field, ¿how about we multiply the result by 10?
-
-![image](https://github.com/Parralol/Lab05ARSW/assets/110953563/8c74817f-ebcb-4161-a6ad-34ed229a0bec)
-
-and let's divide it by 45, just for good measure
-
-![image](https://github.com/Parralol/Lab05ARSW/assets/110953563/ba110e73-70cb-4ace-9aa0-90a0c00e4894)
-
-this all proofs that the calculator works correctly if given the expected input
-
+In the video we can see the EC2 instance hosting the server with various instances of the client running locally, as seen in the video the drawing updates and allows for multiple people drawing at the same time.
 
 ## Generating javadoc
 
