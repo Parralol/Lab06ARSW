@@ -50,6 +50,7 @@ https://github.com/Parralol/Lab06ARSW/assets/110953563/cac2d4bf-4d8c-4023-9336-6
 
 in case the video does not load, simply press F5 to refresh the github tab so that te video downloads as intended
 
+In the video we can see the EC2 instance hosting the server with various instances of the client running locally, as seen in the video the drawing updates and allows for multiple people drawing at the same time.
 
 ## Generating javadoc
 
