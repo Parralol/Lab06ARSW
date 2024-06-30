@@ -1,10 +1,13 @@
 # Lab06ARSW
 
-This programm allow the user to use a simple calculator using MVC with spring
-2024/06/25
+This programm allow the user to deploy a server that allows for a client side multi-user drawing program
+2024/06/30
+
+IN ORDER FOR THIS PROGRAM TO WORK PROPERLY, PLEASE USE THE FOLLOWING CLIENT:
+
+[LAB 06 CLIENT](https://github.com/Parralol/Lab06ARSW-Client/tree/main)
 
 ## Architecture 
-
 ![Lab05 (1)](https://github.com/Parralol/Lab05ARSW/assets/110953563/6b9a1c06-4762-4ab5-bc01-09e6b77a9310)
 
 As seen by the following diagram the user connects via browser to use the program, then he must connect via http using the 8080 port (tomcat), the program is deployed in a EC2 instance which runs the program with the Spring framework, this program is running two java classes, the main one being Lab05Application and the controller being Lab05Controller, the way the main class comunicates with the controller is via paths, the main path being _/calculator_ is the first one to be run, then the responses the controller gives are being delivered as infomation in the post type paths _/case_ & _/calculate_
@@ -103,8 +106,13 @@ mvn spring-boot:run
 
 after the server has initialized, you'll have to use the client to properly see the server working, but even then you can enter to the following URLS to ensure that your server is working properly.
 
+http://localhost:8080/points   --> allows ato see all the stored points
 
+http://localhost:8080/getpoints  --> returns all points in a Json format
 
+http://localhost:8080/status  --> to know if the server is running
+
+http://localhost:8080/setpoints?xval=145&yval=6516 --> minor example of how data is being sent to the server, being xval the X position of the point and yval the Y position of the point.
 
 ## Built With
 
