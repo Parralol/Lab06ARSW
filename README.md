@@ -9,7 +9,7 @@ IN ORDER FOR THIS PROGRAM TO WORK PROPERLY, PLEASE USE THE FOLLOWING CLIENT:
 
 ## Architecture 
 
-![Lab05 (1)](https://github.com/Parralol/Lab05ARSW/assets/110953563/6b9a1c06-4762-4ab5-bc01-09e6b77a9310)
+![Architecture](https://github.com/Parralol/Lab06ARSW/assets/110953563/e703ab22-b119-4165-8fab-f84a9e4474e2)
 
 As seen by the following diagram the user connects via browser to use the program, then he must connect via http using the 8080 port (tomcat), the program is deployed in a EC2 instance which runs the program with the Spring framework, this program is running two java classes, the main one being Lab05Application and the controller being Lab05Controller, the way the main class comunicates with the controller is via paths, the main path being _/calculator_ is the first one to be run, then the responses the controller gives are being delivered as infomation in the post type paths _/case_ & _/calculate_
 
