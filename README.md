@@ -5,7 +5,7 @@ This programm allow the user to deploy a server that allows for a client side mu
 
 IN ORDER FOR THIS PROGRAM TO WORK PROPERLY, PLEASE USE THE FOLLOWING CLIENT:
 
-[LAB 06 CLIENT](https://github.com/Parralol/Lab06ARSW-Client/tree/main)
+[LAB 06 CLIENT](https://github.com/Parralol/Lab06ARSW-Client/tree/main) --> for further build information and to deploy client
 
 ## Architecture 
 
@@ -114,9 +114,14 @@ http://localhost:8080/setpoints?xval=145&yval=6516 --> minor example of how data
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Java](https://www.oracle.com/java/technologies/) - Programming Language
-* [HTML 5](https://html.spec.whatwg.org/multipage/) - HiperText Markup Lenguaje
 * [Spring](https://spring.io/) - Framework
-
+  
+#### Client side
+* [HTML 5](https://html.spec.whatwg.org/multipage/) - HiperText Markup Lenguaje
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - lightweight interpreted programming language
+* [p5.js](https://p5js.org) - free and open-source JavaScript library
+* [React](https://react.dev) - ibrary for web and native user interfaces
+  
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
