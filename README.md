@@ -13,7 +13,9 @@ IN ORDER FOR THIS PROGRAM TO WORK PROPERLY, PLEASE USE THE FOLLOWING CLIENT:
 
 As seen by the following diagram the user connects via browser to use the program, then he must connect via http using the 3000 port, this is because the React based client is working in that service, the client, of course, is provided by a cloud machine deployed in Amazon EC2, each connection starts sending data to our second EC2 server deployed to withstand Spring and to connect via http using the port 8080 (tomcat), this server will work as our Sync service for each client, this is because this service manages all dots drawn by each client, the server delivers an array as Json to all the clients so they get proccessed and interpreted.
 
-Once all has been done the clients draws all the dots (or erases everything given the user input) and so this is the why of this architecture.
+Once all has been done the clients draws all the dots (or erases everything given the user input), if the client decides to delete everything then in the server all data will be erased, there are some commands that cannot be used by the client and those are status and points, this exists just for debbuging reasons and verifying how everything works, however if seeing that is what the user desires the only thing that is needed to do is to try and connect via browser to the data server, each path that is described in the connection between Lab06Application and Lab06Controller is being delivered once, not all petitions at once.
+
+And so this is the why of this architecture.
 
 ## Getting Started
 
