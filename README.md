@@ -11,7 +11,9 @@ IN ORDER FOR THIS PROGRAM TO WORK PROPERLY, PLEASE USE THE FOLLOWING CLIENT:
 
 ![Architecture](https://github.com/Parralol/Lab06ARSW/assets/110953563/e703ab22-b119-4165-8fab-f84a9e4474e2)
 
-As seen by the following diagram the user connects via browser to use the program, then he must connect via http using the 8080 port (tomcat), the program is deployed in a EC2 instance which runs the program with the Spring framework, this program is running two java classes, the main one being Lab05Application and the controller being Lab05Controller, the way the main class comunicates with the controller is via paths, the main path being _/calculator_ is the first one to be run, then the responses the controller gives are being delivered as infomation in the post type paths _/case_ & _/calculate_
+As seen by the following diagram the user connects via browser to use the program, then he must connect via http using the 3000 port, this is because the React based client is working in that service, the client, of course, is provided by a cloud machine deployed in Amazon EC2, each connection starts sending data to our second EC2 server deployed to withstand Spring and to connect via http using the port 8080 (tomcat), this server will work as our Sync service for each client, this is because this service manages all dots drawn by each client, the server delivers an array as Json to all the clients so they get proccessed and interpreted.
+
+Once all has been done the clients draws all the dots (or erases everything given the user input) and so this is the why of this architecture.
 
 ## Getting Started
 
